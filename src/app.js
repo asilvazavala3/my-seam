@@ -3,20 +3,11 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const routes = require("./routes/index.js");
-const cors = require("cors");
-require("dotenv").config();
 
 require("./db.js");
 
 const server = express();
-// Configurar CORS
-server.use(
-  cors({
-    origin: ACCESS, // Cambiar esto con el origen de tu cliente
-    methods: "GET,POST,PUT,DELETE",
-    allowedHeaders: "Content-Type, Authorization, x-access-token",
-  })
-);
+
 server.name = "API";
 
 server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
