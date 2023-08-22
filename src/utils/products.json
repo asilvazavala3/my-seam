@@ -108,9 +108,10 @@
     "userid": 3
   },
   {
-    "nombre": "Blusa de seda",
+    "nombre": "Blusa azul",
     "descripcion": "Blusa de seda en color azul cielo",
     "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_774196-MLM52951014214_122022-O.webp",
       "https://innermotion.com.mx/wp-content/uploads/2023/07/1422_Blusa_Mujer_Innermotion-01.webp",
       "https://http2.mlstatic.com/D_NQ_NP_690662-MLM54156915642_032023-Y.webp"
     ],
@@ -121,7 +122,7 @@
     "userid": 4
   },
   {
-    "nombre": "Blusa de seda",
+    "nombre": "Blusa roja",
     "descripcion": "Blusa de seda en color rojo",
     "imagenes": [
       "https://http2.mlstatic.com/D_NQ_NP_803616-MLM31999714144_082019-O.webp",
@@ -134,7 +135,7 @@
     "userid": 2
   },
   {
-    "nombre": "Blusa de seda",
+    "nombre": "Blusa amarilla",
     "descripcion": "Blusa de seda en color amarillo",
     "imagenes": [
       "https://http2.mlstatic.com/D_NQ_NP_867430-MLM50172597334_062022-O.webp",
@@ -147,9 +148,10 @@
     "userid": 4
   },
   {
-    "nombre": "Blusa de seda",
+    "nombre": "Blusa verde",
     "descripcion": "Blusa de seda en color verde",
     "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_936112-MLM51993246520_102022-O.webp",
       "https://img.ltwebstatic.com/images3_pi/2022/03/09/1646828871b24882e29dafda1a0537a1f6c0de7b6a_thumbnail_720x.webp",
       "https://img.ltwebstatic.com/images3_pi/2022/03/09/1646828874c774e3b45398d39ad061d6974d49ce91_thumbnail_720x.webp"
     ],
@@ -235,7 +237,7 @@
     "nombre": "Falda azul",
     "descripcion": "Falda pilsada en color azul",
     "imagenes": [
-      "https://img.ltwebstatic.com/images3_pi/2023/06/06/1686032876418dc2cc9cdb1e69ccc0c66475b413d2_thumbnail_720x.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_855662-MLM48824173159_012022-O.webp",
       "https://cdn.mall.adeptmind.ai/https%3A%2F%2Fss466.liverpool.com.mx%2Fxl%2F1119415744_1p.jpg_large.webp",
       "https://img.ltwebstatic.com/images3_pi/2022/03/11/1646976798fef57090b66d5629d21211d12e3c20cb_thumbnail_720x.webp"
     ],
@@ -249,7 +251,7 @@
     "nombre": "Falda amarilla",
     "descripcion": "Falda pilsada en color amarillo",
     "imagenes": [
-      "https://img.ltwebstatic.com/images3_pi/2021/12/24/1640313552dbafc0d10f86cecf55841c6635d9d2e8_thumbnail_720x.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_634694-MLM49425179534_032022-O.webp",
       "https://img.ltwebstatic.com/images3_pi/2022/08/29/1661765814c2995627e0fa8e3eb1de5643a50ea299_thumbnail_720x.webp",
       "https://img.ltwebstatic.com/images3_pi/2022/08/29/16617658124da57dac8afa5c5f604c68fc6e904b15_thumbnail_720x.webp"
     ],
@@ -304,8 +306,9 @@
     "nombre": "Sudadera con capucha azul",
     "descripcion": "Sudadera con capucha en color azul",
     "imagenes": [
-      "https://publieventosbyge.com/wp-content/uploads/2023/01/SWRKKNG.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_610728-MLM31220647188_062019-O.webp",
       "https://kedabe.net/wp-content/uploads/2019/09/sudadera-nin%CC%83o-cuello-redondo-new-suprem-kids.jpg",
+      "https://publieventosbyge.com/wp-content/uploads/2023/01/SWRKKNG.webp",
       "https://http2.mlstatic.com/D_NQ_NP_998083-MLM54467891700_032023-O.webp"
     ],
     "gender": "Niño",
