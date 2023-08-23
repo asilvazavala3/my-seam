@@ -1,4 +1,4 @@
-const { CLIENT_ID, CLIENT_SECRET, ACCESS_TOKEN, REDIRECT_URI, SUCCESS,FAILURE,PENDING } = process.env;
+const { CLIENT_ID, CLIENT_SECRET, ACCESS_TOKEN, REDIRECT_URI, RETURN_URL } = process.env;
 const { User } = require("../db.js");
 const mercadopago = require("mercadopago");
 const axios = require('axios');
@@ -8,13 +8,13 @@ const postPaymentHandler = async (req, res) => {
   const seller = await User.findByPk(seller_id);
   
   mercadopago.configure({
-    access_token: seller.MPAccessToken,
+    access_token: ACCESS_TOKEN,
   });
   let preference = {
     back_urls: {
-      success: SUCCESS,
-      failure: FAILURE,
-      pending: PENDING,
+      success: RETURN_URL,
+      failure: RETURN_URL,
+      pending: RETURN_URL,
     },
     auto_return: "approved",
     items: [],
@@ -82,4 +82,4 @@ const getAuthCode = async (req,res) => {
   }
 }
 
-module.exports = {postPaymentHandler, getAuthCode};
+module.exports = { postPaymentHandler, getAuthCode };
